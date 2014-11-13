@@ -106,7 +106,7 @@ TARGET_KERNEL_CONFIG := u8951_defconfig
 BOARD_KERNEL_BASE := 0x00200000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=huawei androidboot.selinux=permissive
 BOARD_PAGE_SIZE := 2048
-TARGET_KERNEL_SOURCE := kernel/huawei/huawei-kernel-3.4
+TARGET_KERNEL_SOURCE := kernel/huawei/u8951
 
 # Lights
 TARGET_PROVIDES_LIBLIGHTS := true
